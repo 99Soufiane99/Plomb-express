@@ -1,0 +1,36 @@
+.navbar{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    li{
+        list-style:none;
+        justify-content:space-around;
+    }
+    ul{
+        display:flex;
+        width: 600px;
+        justify-content:space-between;
+        
+    }
+    .demande{
+        background: orange;
+    }
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+}
+.button{
+    border:#0866C2;
+}
+#logoo{
+        width:40px;
+        height:40px;
+    }
+#plomb-txt{
+    color:#102A43;
+}
+#express-txt{
+    color:#0866C2;
+}
