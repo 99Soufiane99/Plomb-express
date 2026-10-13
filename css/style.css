@@ -15,6 +15,9 @@
     .demande{
         background: orange;
     }
+    a{
+        text-decoration:none;
+    }
 }
 
 .logo{
@@ -33,4 +36,64 @@
 }
 #express-txt{
     color:#0866C2;
+}
+
+/*-----------------------------header-------------------------------------------------------*/
+
+.header{
+    display:flex;
+    background-color: #E7F1FB;
+    li{
+        list-style:none;
+        justify-content:space-around;
+    }
+    .button-header{
+        background: orange;
+        width:40px;
+        height:40px;
+    }
+}
+
+.list-service{
+    list-style:none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.engagement{
+    display:flex;
+    list-style:none;
+    justify-content:space-around;
+
+}
+#image-service{
+    display:flex;
+    justify-content:space-around;
+}
+
+
+/*service fiable*/
+
+.service-fiable{
+    display:flex;
+    background-color:#E7F1FB;
+}
+
+
+
+
+
+
+
+
+/*--------------------------------------footer---------------------*/
+.footer{
+    background-color: #102A43;
+    color:white;
+    
+}
+
+#plomb-txtt{
+    color:white;
+    list-style:none;
 }
