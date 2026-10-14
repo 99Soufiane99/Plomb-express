@@ -1,99 +1,82 @@
-.navbar{
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a {
+        text-decoration: none;
+        font-size: 15px;
+    }
+    margin: 15px;
+}
+
+.main-logo{
     display:flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(20, 24, 223);
+    gap: 10px;
+}
+
+.nav-menu{
+    display:flex;
+    gap: 20px
+}
+
+.nav-button {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    a{
+        color: white;
+    }
+}
+/*text configuration*/
+.small-text{
+    color: #0866C2;
+    font-size: 13px;
+    font-weight: bold;
+}
+.h-text{
+    color: #102A43;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+/*-----------------HERO-------------------------------*/
+
+.hero-content{
+    display:flex;
+    gap: 20px;
     justify-content:space-around;
-    align-items:center;
-    li{
-        list-style:none;
-        justify-content:space-around;
-    }
-    ul{
-        display:flex;
-        width: 600px;
-        justify-content:space-between;
-        
-    }
-    .demande{
-        background: orange;
-    }
+    padding: 48px;
+    margin: 20px;
+}
+ .content{
+    width: 580px;
+    height: 419px;
+    
+ }
+.buttonn{
+    display:flex;
+    gap: 10px;
     a{
         text-decoration:none;
     }
 }
 
-.logo{
-    display:flex;
-    align-items:center;
+.hero-body{
+ background-color:#F3F7FA;
 }
-.button{
-    border:#0866C2;
-}
-#logoo{
-        width:40px;
-        height:40px;
-    }
-#plomb-txt{
-    color:#102A43;
-}
-#express-txt{
-    color:#0866C2;
-}
-
-/*-----------------------------header-------------------------------------------------------*/
-
-.header{
-    display:flex;
-    background-color: #E7F1FB;
-    li{
-        list-style:none;
-        justify-content:space-around;
-    }
-    .button-header{
-        background: orange;
-        width:40px;
-        height:40px;
-    }
-}
-
-.list-service{
-    list-style:none;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
+/*-------------------engagement--------------------------------*/
 .engagement{
-    display:flex;
-    list-style:none;
-    justify-content:space-around;
-
-}
-#image-service{
-    display:flex;
-    justify-content:space-around;
-}
-
-
-/*service fiable*/
-
-.service-fiable{
-    display:flex;
-    background-color:#E7F1FB;
-}
-
-
-
-
-
-
-
-
-/*--------------------------------------footer---------------------*/
-.footer{
-    background-color: #102A43;
-    color:white;
-    
-}
-
-#plomb-txtt{
-    color:white;
-    list-style:none;
+    display: flex;
+    justify-content: space-around;
+    a{
+        display:flex;
+        gap: 10px;
+        font-weight: bold;
+        align-items: center;
+    }
 }
